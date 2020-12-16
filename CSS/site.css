@@ -37,3 +37,22 @@ h2.destaque {
     background-color: yellow;
 }
 
+td,th{
+    border: 1px solid black;
+    padding:4px;
+    text-align:center;
+}
+
+th{
+    background-color:darkred;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.alinhaesq {
+    text-align: left;
+}
+
