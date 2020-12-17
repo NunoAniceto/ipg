@@ -60,4 +60,14 @@ tfoot{
     background-color:black;
     color:white;
 }
+.item_com_quadrado{
+    list-style-type:square;
+}
 
+dt{
+    font-weight:bold;
+}
+
+dd{
+    font-style:italic;
+}
