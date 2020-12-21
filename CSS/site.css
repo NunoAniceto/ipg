@@ -1,3 +1,12 @@
+.imgipg{
+    background-image:url("../img/ipg.jpg");
+    background-repeat:repeat-x;
+    background-position:bottom;
+}
+
+
+
+
 /*comentários*/
 
 /*
@@ -16,19 +25,19 @@ h1{
     margin-bottom: 10px;
 }*/
 
-h2{
+/*h2{
     color:darkred;
-}
+}*/
 
 /*para ids*/
-#estg {
+/*#estg {
     background-color: lightgrey;
     padding: 10px;
     border: 2px solid black;
-}
+}*/
 
 /*seletores de classe*/
-p.destaque {
+/*p.destaque {
     border: 2px dashed black;
     background-color: lawngreen;
 }
@@ -81,57 +90,57 @@ body {
     font-size:16px;
     margin:10px;
 
-}
+}*/
 
 /* Style the header */
-header {
+/*header {
     background-color: white;
     padding: 30px;
     text-align: center;
     font-size: 35px;
     color: darkred;
-}
+}*/
 
 /* Container for flexboxes */
-section {
+/*section {
     display: -webkit-flex;
     display: flex;
-}
+}*/
 
 /* Style the navigation menu */
-nav {
+/*nav {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     background: #ccc;
     padding: 20px;
-}
+}*/
 
     /* Style the list inside the menu */
-    nav ul {
+    /*nav ul {
         list-style-type: none;
         padding: 0;
-    }
+    }*/
 
 /* Style the content */
-article {
+/*article {
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
     background-color: #f1f1f1;
     padding: 40px;
-}
+}*/
 
 /* Style the footer */
-footer {
+/*footer {
     background-color: #777;
     padding: 10px;
     text-align: center;
     color: white;
-}
+}*/
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     section {
         -webkit-flex-direction: column;
         flex-direction: column;
@@ -152,22 +161,22 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:fixed;
-}
+}*/
 
 
 
 
 /*fontes*/
-p{
+/*p{*/
 /*    font-variant:small-caps;*/
 /*    font-weight:bolder;*/
-    text-align:justify;
+    /*text-align:justify;*/
     /*text-transform:uppercase;
     text-indent:1em;*/
 /*    letter-spacing:5px;*/
     /*word-spacing:0.5em;
     line-height:1.5;*/
-}
+/*}
 
 .rasurado{
     text-decoration:line-through;
@@ -179,17 +188,17 @@ nav a{
     color:darkred;
     border: 1px solid darkred;
     background-color:#cfc3c3;
-    padding:7px;
+    padding:7px;*/
  /*   min-width:5em;*/
-    display:block;
+    /*display:block;
     text-align:center;
 
 }
 
 nav li {
-    margin-top: 5px;
+    margin-top: 5px;*/
     /*min-width:20em:*/
-}
+/*}
 
 
 a:link{
@@ -208,6 +217,18 @@ a:hover{
 a:active{
     font-weight:bold;
 }
+
+
+
+
+tbody tr:nth-child(odd){
+    background-color:darkblue;
+}*/
+
+
+
+
+
 
 /**/
 /*
